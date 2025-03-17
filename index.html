@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+<header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+    <div class="container">
+        <h1 class="navbar-brand m-0 section-title">La Belle Douceur</h1> 
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                        <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link"> 
+                            <i class="bi bi-cookie"></i>
+                            Sobre o restaurante
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso Cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-o-restaurante">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel"> 
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="carrossel4.jpg" class="d-block w-100" alt="image1">
+                </div>
+                <div class="carousel-item">
+                    <img src="carrossel2.jpg" class="d-block w-100" alt="image2">
+                </div>
+                <div class="carousel-item">
+                    <img src="carrossel3.webp" class="d-block w-100" alt="image3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="restaurante.jpg" class="d-block w-100 rounded" alt="imagemrestaurante">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre <span class="text-colored">La Belle Douceur</span></h2>
+                        <p>A La Belle Douceur é uma loja especializada em macarons, oferecendo sabores clássicos e inovadores feitos com ingredientes de alta qualidade. Com um ambiente acolhedor e elegante, a loja proporciona uma experiência única para quem busca delicadeza e sabor em cada mordida. Ideal para quem deseja saborear ou presentear com essa iguaria francesa.</p>
+                        <h3 class="section-title">Sobre <span class="text-colored">o ambiente</span></h3>
+                        <p>A *La Belle Douceur* exala charme em cada cantinho, com uma decoração sofisticada e acolhedora que envolve os visitantes em um clima de delicadeza. É o lugar perfeito para se perder em sabores refinados, em um ambiente que convida ao prazer e à tranquilidade. Cada detalhe é pensado para tornar a experiência ainda mais encantadora.</p>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <section id="eventos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="aniversario.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-center text-colored fs-4">
+                        <i class="bi bi-cake2-fill"></i>
+                    Aniversários
+                    </h3>
+                    <p>Comemore seu aniversário de forma única com o nosso bolo de macaron! Feito com camadas de macarons recheados e decorados de forma personalizada, é a escolha perfeita para quem deseja surpreender seus convidados com um toque sofisticado e saboroso.</p>
+                </div>
+    
+                <div class="col-md-4">
+                    <img src="confraternizacao.jpeg" alt="imagem-confraternizacao" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-center text-colored fs-4">
+                        <i class="bi bi-person-arms-up"></i>
+                        Confraternização</h3>
+                    <p>Torne sua confraternização ainda mais especial com nossos macarons temáticos. São opções criativas e deliciosas que combinam perfeitamente com o clima de celebração e união, trazendo elegância e sabor para o evento.</p>
+                </div>
+    
+                <div class="col-md-4">
+                    <img src="data-comemorativas.jpg" alt="imagem-data-comemorativas" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-center text-colored fs-4">
+                        <i class="bi bi-calendar-heart-fill"></i>
+                        Datas Comemorativas</h3>
+                    <p>Na La Belle Douceur, celebramos diversas datas comemorativas com macarons exclusivos e personalizados. Seja no Dia dos Namorados, com sabores românticos e delicados, na Páscoa, com formatos de ovos e coelhinhos, ou no Natal, com decorações festivas e sabores sazonais, temos opções deliciosas para tornar cada celebração ainda mais doce e inesquecível.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="cardapio" class="pt-5 pb-5">
+<div class="container">
+    <div class="row">
+        <h2 class="section-title text-center mb-5">
+            Nosso <span class="text-colored">Cardápio</span>
+        </h2>
+    </div>
+    <div class="row">
+        <aside class="col-md-2">
+        <nav class="nav nav-pills flex-column nav-cardapio">
+            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas" class="fw-bold text-start nav-link text-colored active">Bebidas</button>
+            <button type="button" data-bs-toggle="tab" data-bs-target="#macaron" class="fw-bold text-start nav-link text-colored">Macaron</button>
+            <button type="button" data-bs-toggle="tab" data-bs-target="#eclair" class="fw-bold text-start nav-link text-colored">Éclair</button>
+            <button type="button" data-bs-toggle="tab" data-bs-target="#tarte" class="fw-bold text-start nav-link text-colored">Tarte</button>
+        </nav>    
+        </aside>
+        <div class="col-md-10">
+            <div class="tab-content">
+                
+                <div class="tab-pane active" id="bebidas">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="agua.jpg" alt="agua">
+                            <h5 class="text-colored fw-bold mt-2 ">Água</h5>
+                            <p>
+                            Água Mineral
+                            </p>
+                        </div>
+
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="coca.webp" alt="Coca-Cola">
+                            <h5 class="text-colored fw-bold mt-2">Coca-Cola</h5>
+                            <p>
+                            Coca-Cola tradicional
+                            </p>
+                        </div>
+
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="suco-laranja.webp" alt="suco-laranja">
+                            <h5 class="text-colored fw-bold mt-2">Suco de Laranja</h5>
+                            <p>
+                            Suco de Laranja - Natural
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="suco-de-uva.jpeg" alt="suco-uva">
+                            <h5 class="text-colored fw-bold mt-2">Suco de Uva</h5>
+                            <p>
+                            Suco de Uva - Natural
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="guarana.webp" alt="guarana">
+                            <h5 class="text-colored fw-bold mt-2">Guaraná Antarctica</h5>
+                            <p>
+                            Guaraná Antarctica 
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="maracuja.jpg" alt="maracujá">
+                            <h5 class="text-colored fw-bold mt-2">Suco de Maracujá</h5>
+                            <p>
+                            Suco de Maracujá - Natural
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="tab-pane" id="macaron">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="macaron-banana.jpg" alt="banana">
+                            <h5 class="text-colored fw-bold mt-2 ">Macaron de Banana</h5>
+                            <p>
+                                O Macaron de Banana é uma combinação perfeita de casquinha crocante e recheio cremoso de banana, oferecendo um sabor suave e doce em cada mordida. Uma deliciosa opção para os amantes de sabores frutados!
+                            </p>
+                        </div>
+
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="macaron-chocolate.jpg" alt="Chocolate">
+                            <h5 class="text-colored fw-bold mt-2">Macaron de Chocolate</h5>
+                            <p>
+                                O Macaron de Chocolate é uma explosão de sabor, com casquinha crocante e um recheio cremoso de chocolate intenso. Uma opção irresistível para os amantes de chocolate!
+                            </p>
+                        </div>
+
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="macaron-frutasvermelhas.webp" alt="macaron-frutasvermelhas">
+                            <h5 class="text-colored fw-bold mt-2">Macaron Frutas Vermelhas</h5>
+                            <p>
+                                O Macaron de frutas Vermelhas combina casquinha crocante com um recheio cremoso e refrescante de frutas como morango, framboesa e amora. Um sabor doce e levemente ácido, perfeito para quem ama frutas frescas!
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="macaron-pistache.jpeg" alt="macaron-pistache">
+                            <h5 class="text-colored fw-bold mt-2">Macaron de Pistache</h5>
+                            <p>
+                                O Macaron de Pistache é uma combinação perfeita de casquinha crocante e recheio cremoso de pistache, com um sabor suave e levemente tostado. Uma opção sofisticada e deliciosa para os amantes de sabores refinados!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="eclair">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="eclair-de-chocolate.jpg" alt="chocolate">
+                            <h5 class="text-colored fw-bold mt-2 ">Éclair de Chocolate</h5>
+                            <p>
+                                A Éclair de Chocolate é uma deliciosa massa crocante recheada com creme de chocolate e coberta com ganache, oferecendo uma experiência doce e irresistível.
+                            </p>
+                        </div>
+
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="eclair-de-morango.avif" alt="morango">
+                            <h5 class="text-colored fw-bold mt-2">Éclair de Morango</h5>
+                            <p>
+                                A Éclair de Morango é uma massa leve e crocante, recheada com um creme suave de morango e coberta com uma camada deliciosa de glacê, oferecendo um sabor fresco e doce em cada mordida.
+                            </p>
+                        </div>
+
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="eclair-maracuja-chocolate.webp" alt="eclair-maracuja-chocolate">
+                            <h5 class="text-colored fw-bold mt-2">Éclair de Maracúja com Chocolate</h5>
+                            <p>
+                                A Éclair de Maracujá e Chocolate combina a crocância da massa com um recheio cremoso de maracujá e uma cobertura de ganache de chocolate, criando uma fusão irresistível de sabores doces e azedinhos.                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="eclair-pistache.webp" alt="eclair-pistache">
+                            <h5 class="text-colored fw-bold mt-2">Éclair de Pistache</h5>
+                            <p>
+                                A Éclair de Pistache é uma massa crocante recheada com um creme suave de pistache, oferecendo um sabor refinado e delicado, perfeito para quem aprecia combinações sofisticadas e saborosas.                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="tab-pane" id="tarte">
+                <div class="row">
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="chocolate-e-caramelo-salgado.avif" alt="chocolate-e-caramelo-salgado">
+                      <h5 class="text-colored fw-bold mt-2 ">Tarte de Chocolate com Caramelo Salgado</h5>
+                      <p>
+                        A Tarte de Chocolate com Caramelo Salgado é uma deliciosa combinação de chocolate intenso e caramelo salgado, em uma base crocante...
+                      </p>
+                    </div>
+              
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="limão-Merengada.webp" alt="limão-Merengada">
+                      <h5 class="text-colored fw-bold mt-2">Tarte de Limão Merengada</h5>
+                      <p>
+                        A Tarte de Limão Merengada é uma sobremesa refrescante, com uma base crocante, recheio cremoso de limão e coberta com um merengue suave...
+
+                      </p>
+                    </div>
+              
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="morango.jpg" alt="morango">
+                      <h5 class="text-colored fw-bold mt-2">Tarte de Morango</h5>
+                      <p>
+                        A Tarte de Morango é uma sobremesa deliciosa com uma base crocante, recheio suave e cremoso, e coberta com morangos frescos...
+
+                      </p>
+                    </div>
+              
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="pistache.jpg" alt="tarte">
+                      <h5 class="text-colored fw-bold mt-2">Tarte de Pistache</h5>
+                      <p>A Tarte de Pistache é uma sobremesa sofisticada, com uma base crocante, recheio cremoso de pistache e um toque delicado de sabor tostado...</p>
+                    </div>
+                  </div>
+                </div>
+              
+        </div>
+    </div>
+</div>
+    </section>
+   </div>
+   
+
+</head>
+<body>
+   <section id="fale-conosco" class="pt-5 pb-5">
+       <div class="row">
+           <h2 class="section-title text-center"> Fale Conosco</h2>
+       </div>
+       <div class="row">
+           <div class="col-md-7 mb-5">
+               <form id="contactForm">
+                   <div class="mb-3">
+                       <label for="nome" class="form-label fw-bold text-colored">Seu Nome</label>
+                       <input type="text" id="nome" class="form-control" required>
+                   </div>
+                   <div class="mb-3">
+                       <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                       <input type="email" id="email" class="form-control" required>
+                   </div>
+                   <div class="mb-3">
+                       <label for="telefone" class="form-label fw-bold text-colored">Seu Telefone (opcional)</label>
+                       <input type="tel" id="Telefone" class="form-control" maxlength="11" pattern="\d{11}" title="Digite um número de telefone válido com 11 dígitos">
+                   </div>
+                   <div class="mb-3">
+                       <label for="mensagem" class="form-label fw-bold text-colored">Sua Mensagem</label>
+                       <textarea class="form-control" id="mensagem" required></textarea>
+                   </div>
+                   <button type="submit" class="btn fw-bold">Enviar</button>
+               </form>
+               <!-- Mensagem de Status -->
+               <div id="formStatus" class="mt-3"></div>
+           </div>
+           <div class="col-md-5">
+               <div class="row">
+                   <h3 class="section-title fs-4 text-colored">
+                       <i class="bi bi-hand-thumbs-up-fill"></i>
+                       Redes Sociais
+                   </h3>
+                   <ul class="social-links">
+                       <li class="fs-5">
+                           <a href="#">
+                               <i class="bi bi-facebook text-colored"></i>
+                           </a>
+                       </li>
+                       <li class="fs-5 ms-1 me-1">
+                           <a href="#">
+                               <i class="bi bi-instagram text-colored"></i>
+                           </a>
+                       </li>
+                       <li class="fs-5">
+                           <a href="#">
+                               <i class="bi bi-whatsapp text-colored"></i>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+               <div class="row mt-4">
+                   <h3 class="section-title fs-4 text-colored">
+                       <i class="bi bi-cursor-fill"></i>
+                       Endereço
+                   </h3>
+                   <p>
+                       Rua teste exemplo, 123 - Curitiba - PR
+                   </p>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <audio id="audio" src="audio.site.mp3" preload="auto"></audio>
+
+   <script>
+    // Aguardar o carregamento completo da página
+    document.addEventListener("DOMContentLoaded", function() {
+
+        // Verificar se o áudio já foi tocado anteriormente
+        if (!localStorage.getItem('audioPlayed')) {
+            const audio = document.getElementById('audio');
+            const carouselSection = document.getElementById('sobre-o-restaurante');
+
+            // Reproduz o áudio assim que a página é carregada
+            audio.play();
+
+            // Usar o Intersection Observer para monitorar a visibilidade do carrossel
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    // Se a seção do carrossel estiver visível
+                    if (entry.isIntersecting) {
+                        // Reproduz o áudio se não estiver tocando
+                        if (audio.paused) {
+                            audio.play();
+                        }
+                    } else {
+                        // Pausa o áudio se a seção não estiver visível
+                        if (!audio.paused) {
+                            audio.pause();
+                        }
+                    }
+                });
+            }, { threshold: 0.5 }); // Carrossel precisa estar 50% visível para ser considerado
+
+            observer.observe(carouselSection); // Observa a seção do carrossel
+
+            // Marca no localStorage que o áudio já foi tocado
+            localStorage.setItem('audioPlayed', 'true');
+        }
+    });
+</script>
+
+<!-- JavaScript para formulário e máscara de telefone -->
+<script>
+    $(document).ready(function() {
+        // Aplicando a máscara de telefone
+        $('#telefone').mask('(00) 00000-0000');
+
+        // Validando o formulário
+        $('#contactForm').validate({
+            // Definindo as regras de validação
+            rules: {
+                nome: {
+                    required: true
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                telefone: {
+                    required: false, // Não é obrigatório, mas se for preenchido deve ser válido
+                    minlength: 15 // A máscara de telefone deve garantir que o mínimo de 15 caracteres seja preenchido
+                },
+                mensagem: {
+                    required: true
+                }
+            },
+            // Mensagens personalizadas em português (com tradução automática da lib)
+            submitHandler: function(form) {
+                // Evitar o envio padrão do formulário
+                event.preventDefault();
+
+                // Exibir a mensagem de sucesso
+                $('#formStatus').html('<p class="text-success">Enviado com sucesso!</p>');
+                
+                // Limpar o formulário (opcional)
+                form.reset();
+            },
+            // Quando houver erro de validação
+            invalidHandler: function(event, validator) {
+                // Exibir mensagem de erro caso o formulário esteja incompleto
+                $('#formStatus').html('<p class="text-danger">Complete o formulário para conseguir enviar.</p>');
+            }
+        });
+    });
+</script>
+
+<!-- Script para carrossel e animação -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+
+        // Pegando os elementos de áudio, carrossel e a imagem de animação
+        var audio = document.getElementById("audio");
+        var carousel = document.getElementById("carousel");
+        var animationImg = document.getElementById("animationImg"); // A imagem de animação
+
+        // Criando o IntersectionObserver para monitorar a visibilidade do carrossel
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Carrossel entrou na tela, começa o áudio
+                    if (audio.paused) {
+                        audio.play();
+                    }
+
+                    // Exibe a imagem de animação sobre o carrossel
+                    animationImg.style.display = "block"; // Mostra a imagem
+
+                    // Após 3 segundos, esconde a imagem de animação
+                    setTimeout(function() {
+                        animationImg.style.display = "none"; // Esconde a imagem
+                    }, 3000); // 3 segundos (3000 milissegundos)
+                    
+                } else {
+                    // Carrossel saiu da tela, pausa o áudio
+                    if (!audio.paused) {
+                        audio.pause();
+                        audio.currentTime = 0;  // Reseta o áudio para o início
+                    }
+                }
+            });
+        }, {
+            threshold: 0.5  // 50% do carrossel precisa estar visível
+        });
+
+        // Iniciar o monitoramento do carrossel
+        observer.observe(carousel);
+
+    });
+</script>
+
+<!-- jQuery (certifique-se de que é carregado primeiro) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- jQuery Mask Plugin -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+<!-- jQuery Validate -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+
+<!-- Arquivo de tradução jQuery Validate para PT-BR -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/localization/messages_pt_BR.min.js"></script>
+
+<!-- Bootstrap JS (se necessário) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+

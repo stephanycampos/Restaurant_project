@@ -1,0 +1,154 @@
+body{
+    font-family: reboto, sans-serif;
+    }
+    .navbar {
+        background-color: rgb(17, 87, 54);
+    }
+    
+    #cabecalho .nav .nav-link.active{
+    background-color: seashell;
+    color: rgba(31, 54, 7, 0.985);
+    }
+    
+    #cabecalho .nav .nav-link,
+    .navbar-brand,
+    .navbar-brand:hover,
+    .nav-cardapio .nav-link.active {
+        color: rgba(242, 245, 147, 0.926);
+    }
+    
+    .navbar-brand{
+        font-family: pacifico, cursive;
+    }
+    
+    
+    /* main.css */
+    h1.navbar-brand {
+        font-family: 'Scribble', serif;
+        color: rgba(242, 245, 147, 0.926);
+    }
+    
+    .navbar-toggler {
+    background-color: rgba(242, 245, 147, 0.926) ;
+    }
+    
+    .carousel-inner img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        position: relative
+    }
+    
+    .section-title {
+        font-family: Satisfy, cursive ;
+    }
+
+
+    #sobre-o-restaurante, #fale-conosco{
+        background-color: rgba(72, 181, 114, 0.348);
+    }
+    #cardapio {        
+        background-color: rgba(72, 181, 114, 0.348);
+    }
+        h1 {
+            font-family: Satisfy, cursive;
+        }
+
+        .eventos {
+            display: flex; 
+            justify-content: space-between; 
+            gap: 10px;
+        }
+        
+        .evento {
+            flex: 1; 
+            text-align: center;
+        }
+        
+        .evento img {
+            width: 100%; 
+            height: auto; 
+            border-radius: 8px; 
+        }
+        
+        #eventos {
+            background-color: white; /* Define o fundo da seção como branco */
+        }
+        
+  .text-colored{
+    color: rgb(64, 108, 64) ;
+  }
+    
+  .nav-cardapio .nav-link.active {
+    background-color: rgb(17, 87, 54);
+    color: #fff;
+  }
+
+  .nav-cardapio .nav-link.navbar-brand:hover {
+color: rgb(17, 87, 54);
+  }
+
+  /* Estilo para as imagens cardapio */
+.col-md-3 img {
+    width: 100%; 
+    height: 200px;  
+    object-fit: cover;
+    border-radius: 8px; 
+}
+
+.social-links, li{
+    list-style: nome;
+display: inline;
+}
+
+.social-links, a{
+    text-decoration: none;
+}
+
+#fale-conosco {
+    background-color: #ffffff; 
+    padding: 30px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o formulário */
+form {
+    background-color: rgb(10, 50, 32); 
+    padding: 20px; 
+    border-radius: 8px; 
+    color: #ffffff; 
+}
+
+/* Estilo para os campos de entrada e textarea dentro do formulário */
+.form-control {
+    margin-bottom: 15px; 
+    padding: 12px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    font-size: 16px; 
+    transition: border-color 0.3s ease;  
+    background-color: #ffffff;  
+    color: #333;  
+}
+
+
+.form-control:focus {
+    border-color: #6c5ce7; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(108, 92, 231, 0.5); 
+}
+
+/* Estilo para o botão de envio */
+.btn.fw-bold {
+    background-color: #FFFF99; /* Amarelo bem claro */
+    color: black; /* Cor do texto (preto) */
+}
+
+.btn.fw-bold:hover {
+    background-color: #FFEE66; /* Um tom um pouco mais forte de amarelo para o hover */
+    color: black; /* Cor do texto ao passar o mouse */
+}
+
+
+
